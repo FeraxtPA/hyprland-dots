@@ -1,0 +1,73 @@
+/* ----------- 💫 https://github.com/JaKooLit 💫 -------- */
+/* pywal-wlogout */
+
+/* Importing pywal colors */
+
+
+
+window {
+    font-family: Fira Code Medium;
+    font-size: 16pt;
+    color: #cdd6f4; /* text */
+    background-color: rgba(30, 30, 46, 0.6);
+}
+
+button {
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    background-color: rgba(18, 94, 226, 0);
+    border-style: solid;
+    border-width: 1px;
+    
+    border-radius: 80px; /* Increased border radius for a more rounded look */
+    
+}
+
+button:focus{
+    outline-style: none;
+    
+   
+}
+
+button:active{
+    outline-style: none;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.267);
+
+    background-size: 25%;
+    outline-style: none;
+    box-shadow: 0 0 20px black;
+    border:0px; border-radius: 80px; 
+    
+
+}
+
+/* Adjust the size of the icon or content inside the button */
+button span {
+    font-size: 1.2em; /* Increase the font size */
+}
+
+
+#lock {
+    background-image: image(url("/home/annihilist/.config/wlogout/icons/lock.png"));
+}
+
+
+#suspend {
+    background-image: image(url("./icons/sleep.png"));
+}
+
+
+#shutdown {
+    background-image: image(url("./icons/power.png"));
+}
+
+#reboot {
+    background-image: image(url("./icons/restart.png"));
+}
+
+
+
